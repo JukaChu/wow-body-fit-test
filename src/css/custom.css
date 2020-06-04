@@ -1,0 +1,381 @@
+.entry__container-text {
+    padding-top: 60px;
+}
+
+.entry__content {
+    margin: 45px auto 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+}
+
+.entry__content-text {
+    padding: 20px;
+}
+
+.errorMessage {
+    pointer-events: none;
+    margin-top: 6px;
+    padding: 0 13px;
+    color: red;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    transition: all 0.25s ease-out;
+}
+
+/***** fit test ******/
+.test-sheme {
+    text-align: left;
+}
+
+.test-item-point {
+    margin-top: 33px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #0ca6b5;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #0ca6b5;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.test-item {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.clock {
+    display: block;
+    width: 143px;
+    height: 191px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    background-image: url("../images/clock.png");
+    background-position: 0px 0px;
+    padding-top: 48px;
+}
+
+.clock .launcher .clock-button {
+    padding-bottom: 61px;
+    height: auto;
+}
+
+.clock .launcher .clock-button {
+    position: relative;
+    background: transparent;
+    color: #81C24A;
+    padding-top: 61px;
+    outline: none;
+    font-family: "Gilroy-Bold", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.clock .launcher .clock-button:hover {
+    color: #537161;
+
+}
+
+
+.clock__item-value-label_circle {
+    box-sizing: border-box !important;
+    position: absolute;
+    pointer-events: none;
+    top: 46px;
+    left: 1px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.clock__item-value-label_circle::before, .clock__item-value-label_circle::after {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    -webkit-animation: pulseLightGreenSmall 1.8s infinite;
+    animation: pulseLightGreenSmall 1.8s infinite;
+    border: 1px solid #81C24A;
+    border-radius: 50%;
+    content: '';
+}
+
+.clock__item-value-label_circle::before {
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+}
+
+.clock__item-value-label_circle::after {
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+}
+
+
+.coutndown-wrapper-time {
+    font-weight: 700;
+    left: 12px;
+    top: 14px;
+    font-size: 35px;
+}
+
+.coutndown-wrapper {
+    left: 13px;
+    top: 15px;
+}
+
+.test-h3 {
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+
+.rez-icon {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 65px auto 30px;
+    padding-top: 150px;
+    border: 3px solid #09aaba;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    background-image: url("../images/gant.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #81c24c;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.rez-p {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #555;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.girl {
+    width: 344px;
+    height: 419px;
+    max-width: 100%;
+    margin-top: 15px;
+    float: left;
+    background-image: url("../images/girl.jpg");
+    background-position: 50% 0px;
+    background-repeat: no-repeat;
+}
+
+.quot {
+    position: relative;
+    display: inline-block;
+    width: 590px;
+    max-width: 95%;
+    margin-top: 60px;
+    margin-bottom: 35px;
+    padding: 25px;
+    float: left;
+    border: 3px solid #c3c3c3;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.ugl {
+    position: absolute;
+    left: -57px;
+    top: 10px;
+    width: 60px;
+    height: 34px;
+    background-image: url("../images/ugl.png");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+
+.ps {
+    float: left;
+    font-style: italic;
+    text-align: left;
+}
+
+input.delay.form-control {
+    display: none;
+}
+
+/***** fit test ******/
+
+.re-captcha {
+    width: 304px;
+}
+
+/***** column *****/
+.w-row {
+    margin-left: -10px;
+    margin-right: -10px
+}
+
+.w-row:before, .w-row:after {
+    content: " ";
+    display: table
+}
+
+.w-row:after {
+    clear: both
+}
+
+.w-row .w-row {
+    margin-left: 0;
+    margin-right: 0
+}
+
+.w-col {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.w-col .w-col {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.w-col-1 {
+    width: 8.33333333%
+}
+
+.w-col-2 {
+    width: 16.66666667%
+}
+
+.w-col-3 {
+    width: 25%
+}
+
+.w-col-4 {
+    width: 33.33333333%
+}
+
+.w-col-5 {
+    width: 41.66666667%
+}
+
+.w-col-6 {
+    width: 50%
+}
+
+.w-col-7 {
+    width: 58.33333333%
+}
+
+.w-col-8 {
+    width: 66.66666667%
+}
+
+.w-col-9 {
+    width: 75%
+}
+
+.w-col-10 {
+    width: 83.33333333%
+}
+
+.w-col-11 {
+    width: 91.66666667%
+}
+
+.w-col-12 {
+    width: 100%
+}
+
+.w-hidden-main {
+    display: none !important
+}
+
+@media screen and (max-width: 991px) {
+    .w-container {
+        max-width: 728px
+    }
+
+    .w-hidden-main {
+        display: inherit !important
+    }
+
+    .w-hidden-medium {
+        display: none !important
+    }
+
+    .w-col-medium-1 {
+        width: 8.33333333%
+    }
+
+    .w-col-medium-2 {
+        width: 16.66666667%
+    }
+
+    .w-col-medium-3 {
+        width: 25%
+    }
+
+    .w-col-medium-4 {
+        width: 33.33333333%
+    }
+
+    .w-col-medium-5 {
+        width: 41.66666667%
+    }
+
+    .w-col-medium-6 {
+        width: 50%
+    }
+
+    .w-col-medium-7 {
+        width: 58.33333333%
+    }
+
+    .w-col-medium-8 {
+        width: 66.66666667%
+    }
+
+    .w-col-medium-9 {
+        width: 75%
+    }
+
+    .w-col-medium-10 {
+        width: 83.33333333%
+    }
+
+    .w-col-medium-11 {
+        width: 91.66666667%
+    }
+
+    .w-col-medium-12 {
+        width: 100%
+    }
+}
+
+/***** column *****/
